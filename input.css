@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title{
+    @apply  text-5xl font-bold font-noto;
+}
+
+.subtitle{
+    @apply font-bold font-noto;
+}
+
+.paragraph{
+    @apply font-extralight font-noto;
+}
+
+.sm-text-box{
+    @apply pr-[50px] h-[120px];
+}
+
+.app-cta{
+    @apply mt-[15px] font-normal text-main;
+    display: inline-block;
+}
+
+.icon-boxes{
+    @apply m-[30px]
+}
+
+.icon-boxes h3{
+    @apply font-bold font-noto text-lg
+}
+
+.icon-boxes p{
+    @apply font-extralight font-noto text-base text-gray-400 mt-[15px]
+}
+
+.box-left{
+    @apply ml-auto
+}
+
+.box-left img{
+    @apply ml-[30px] h-[150px]
+}
+
+.box-right img{
+    @apply mr-[30px] h-[150px]
+}
+
+.footer-title{
+    @apply font-normal text-lg mb-[60px]
+}
