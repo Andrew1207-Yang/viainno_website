@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .title{
-    @apply  text-5xl font-bold font-noto;
+    @apply  text-4xl lg:text-5xl font-bold font-noto;
 }
 
 .subtitle{
@@ -36,17 +36,16 @@
 }
 
 .box-left{
-    @apply ml-auto
+    @apply ml-auto hidden min-[1200px]:flex
 }
 
 .box-left img{
-    @apply ml-[30px] h-[150px]
+    @apply mx-auto xl:mr-[0px] xl:ml-[30px] h-[150px]
 }
-
 .box-right img{
-    @apply mr-[30px] h-[150px]
+    @apply mx-auto xl:ml-[0px] xl:mr-[30px] h-[150px]
 }
 
 .footer-title{
-    @apply font-normal text-lg mb-[60px]
+    @apply font-normal text-lg mt-[30px] mb-[10px] lg:mt-[0px] lg:mb-[60px]
 }

@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html"],
+  content: ["./src/homego.html"],
   theme: {
     extend: {
       colors: {
@@ -9,7 +9,7 @@ module.exports = {
       },
       fontFamily:{
         noto: ['Noto Sans TC', 'sans-serif'],
-      }
+      },
     },
   },
   plugins: [],
