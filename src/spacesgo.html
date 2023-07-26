@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>勤禾科技服務 Viainno</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="../dist/spacesgo.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="w-full fixed bg-white">
+        <nav class="mx-auto flex max-w-7xl items-center justify-between p-5 lg:p-3 lg:px-8 text-black" aria-label="Global">
+            <div class="flex lg:flex-1">
+                <a href="#" class="-m-1.5 p-1.5">
+                <span class="sr-only">Viainno</span>
+                <img class="h-8 w-auto" src="../assets/img/logo.svg" alt="">
+                </a>
+            </div>
+
+            <div class="lg:hidden">
+                <button type="button" class="space-y-1" onclick="toggle()">
+                    <div class="w-6 h-0.5 bg-gray-600"></div>
+                    <div class="w-6 h-0.5 bg-gray-600"></div>
+                    <div class="w-6 h-0.5 bg-gray-600"></div>
+                </button>
+            </div>
+            
+            <div class='hidden lg:flex'>
+                <a href="#" class="block m-2.5 p-1.5 font-noto">首頁</a>
+                <a href="#" class="block m-2.5 p-1.5 font-noto">關於我們</a>
+                <a href="#" class="block m-2.5 p-1.5 font-noto">解決方案</a>
+                <a href="#" class="block m-2.5 p-1.5 font-noto">用科技整合生活</a>
+                <a href="#" class="block m-2.5 p-1.5 font-noto">聯繫我們</a>
+            </div>
+        </nav>
+
+        <div id="navLinks" class='bg-gray-200 hidden text-center'>
+            <a href="#" class="block m-2.5 p-1.5 font-noto">首頁</a>
+            <a href="#" class="block m-2.5 p-1.5 font-noto">關於我們</a>
+            <a href="#" class="block m-2.5 p-1.5 font-noto">解決方案</a>
+            <a href="#" class="block m-2.5 p-1.5 font-noto">用科技整合生活</a>
+            <a href="#" class="block mb-0 m-2.5 p-1.5 font-noto">聯繫我們</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-[80px] hero bg-white">
+        <div class="max-w-7xl mx-auto mt-[50px] lg:mt-[80px] text-center">
+            <div>
+                <h1 class="text-black title">Spaces Go 空間營運平台</h3>
+                <h1 class="text-black my-[15px] lg:my-[30px] subtitle">作業標準化建立溝通與信任</h1>
+            </div>
+            <img class="mx-auto mt-[50px] lg:mt-[80px]" src="../assets/img/homego/app_comparison.png" alt="product_image">
+        </div>
+    </section>
+
+    <!-- App Intro Section -->
+    <section>
+        <div class="max-w-7xl mx-auto mt-[80px] lg:mt-[180px] mb-[60px]">
+            <h1 class="title mx-5">如何彈性管理您的空間？</h1>
+            <p class="mt-[20px] mx-5">人類在經歷疫情（Covid-19）過後，企業辦公室、商務中心、旅館、各種複合型的共享工作空間等，如何有效率且安全地經營，是我們著力研究和規劃設計的問題，高度自助化、整合了人與科技的空間，又能保持人與人之間的溫度，將會是創新服務形態不可或缺的思維。</p>
+        </div>
+        <div class="max-w-7xl mx-auto xl:grid xl:grid-cols-2">
+            <div class="card">
+                <h3 class="subtitle">應用端介面直覺人性，持續地更新服務</h3>
+                <ul>
+                    <li><p>使用介面與實際作業流程相符，不刻意改變作業習慣，並且依
+                        營運不斷更新改進。
+                        </p></li>
+                    <li><p>使用介面與實際作業流程相符，不刻意改變作業習慣，並且依
+                        營運不斷更新改進。
+                        </p></li>
+                        
+                </ul>
+                <img src="../assets/img/spacesgo/stats_analysis.JPG" alt="">
+            </div>
+
+            <div class="card">
+                <h3>多元數據資料分析</h3>
+                <ul>
+                    <li><p>詳盡記錄成員針對空間、設備及活動等，從預訂、報到使用
+                        到使用完畢等不同時間點的使用情況。</p></li>
+                    <li><p>記錄各工作空間聯盟或企業及其分公司之間，空間資源共用
+                        與人員往來情況。</p></li>
+                    <li><p>從空間、設備及活動等使用情況、使用率、成員偏好使用行
+                        為，到空間能源配置與耗能情況，透過多重面向的數據，適時調
+                        整運作規則。</p></li>
+                    <li><p>可針對特定時間區間(週/月/年)的資料進行多角度歷史分析，結
+                        果可供營運決策參考。</p></li>
+                </ul>
+                <img src="../assets/img/spacesgo/phone_ui_cropped.png" alt="">
+            </div>
+
+            <div class="card">
+                <h3>多元數據資料分析</h3>
+                <ul>
+                    <li><p>詳盡記錄成員針對空間、設備及活動等，從預訂、報到使用
+                        到使用完畢等不同時間點的使用情況。</p></li>
+                    <li><p>記錄各工作空間聯盟或企業及其分公司之間，空間資源共用
+                        與人員往來情況。</p></li>
+                    <li><p>從空間、設備及活動等使用情況、使用率、成員偏好使用行
+                        為，到空間能源配置與耗能情況，透過多重面向的數據，適時調
+                        整運作規則。</p></li>
+                    <li><p>可針對特定時間區間(週/月/年)的資料進行多角度歷史分析，結
+                        果可供營運決策參考。</p></li>
+                </ul>
+                <img class="mx-auto" src="../assets/img/spacesgo/mac_dashboard.png" alt="">
+            </div>
+
+            <div class="card">
+                <h3>多元數據資料分析</h3>
+                <ul>
+                    <li><p>詳盡記錄成員針對空間、設備及活動等，從預訂、報到使用
+                        到使用完畢等不同時間點的使用情況。</p></li>
+                    <li><p>記錄各工作空間聯盟或企業及其分公司之間，空間資源共用
+                        與人員往來情況。</p></li>
+                    <li><p>從空間、設備及活動等使用情況、使用率、成員偏好使用行
+                        為，到空間能源配置與耗能情況，透過多重面向的數據，適時調
+                        整運作規則。</p></li>
+                    <li><p>可針對特定時間區間(週/月/年)的資料進行多角度歷史分析，結
+                        果可供營運決策參考。</p></li>
+                </ul>
+                <img src="../assets/img/spacesgo/pad_ui.png" alt="">
+            </div>
+        </div>
+    </section>
+    
+    <!-- Product Comparison -->
+    <section class="bg-white">
+        <div class="my-[80px] max-w-6xl mx-auto text-center">
+            <div class="py-[80px]">
+                <h1 class="title">專為不同情境打造的三款軟體</h1>
+            </div>
+            <img class="mx-auto" src="../assets/img/spacesgo/app_comparison.png" alt="">
+        </div>
+    </section>
+
+    <!-- Product feature -->
+    <section>
+        
+    </section>
+</body>
+<script>
+    function toggle(){
+        var x = document.getElementById("navLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
+</html>
