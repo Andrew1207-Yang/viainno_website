@@ -1,10 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/homego.html"],
+  content: ["./src/*.html"],
   theme: {
     extend: {
       colors: {
-        main: '#2e9189',
+        theme_green: '#2e9189',
         dark_gray: '#1c1c1c',
       },
       fontFamily:{

@@ -42,10 +42,17 @@
         <div id="navLinks" class='bg-gray-200 hidden text-center'>
             <a href="#" class="block m-2.5 p-1.5 font-noto">首頁</a>
             <a href="#" class="block m-2.5 p-1.5 font-noto">關於我們</a>
-            <a href="#" class="block m-2.5 p-1.5 font-noto">解決方案</a>
+            <button onclick="toggleApp()" class="mx-auto block m-2.5 p-1.5 font-noto">解決方案</button>
+            
+            <div id="appLinks" class='bg-gray-200 hidden text-center font-light'>
+                <a href="#" class="block m-2.5 p-1.5 font-noto">Home Go</a>
+                <a href="#" class="block m-2.5 p-1.5 font-noto">Spaces Go</a>
+            </div>
+
             <a href="#" class="block m-2.5 p-1.5 font-noto">用科技整合生活</a>
             <a href="#" class="block mb-0 m-2.5 p-1.5 font-noto">聯繫我們</a>
         </div>
+        
     </header>
 
     <!-- Hero Section -->
@@ -60,48 +67,41 @@
     </section>
 
     <!-- Intro Section -->
-    <section class="intro">
-        <div class="mx-auto max-w-6xl items-center font-noto">
+    <section class="intro mb-[60px]">
+        <div class="mx-auto max-w-6xl items-center font-noto mb-[60px]">
             <div class="mt-[60px] text-center">
                 <h3 class="font-bold font-noto subtitle">Home Go</h3>
                 <h1 class="mt-[12px] lg:mt-[17px] mb-[20px] lg:mb-[35px] title">樓宇經營智慧化</h1>
                 <p class="text-base lg:text-lg paragraph">為建築建構其專有的建築/社區經營平台，透過大量可變的管理模型<br>及策略、數位制度化管理與客觀數據、完整溝通渠道，創造互信、<br>友善社會的企業經營目標。</p>
             </div>
-
-            <div class="my-[80px] flex">
-                <div class="mx-auto lg:ml-[0px] pt-[30px] text-center lg:text-left">
-                    <h1 class="mt-[17px] mb-[35px] title">整合資訊與管理</h1>
-                    <p class="text-lg paragraph">基礎建物資料維護與營運機制規劃，同時管理<br>關係人、社群組識、服務廠商、聯繫資訊。解<br>決人員異動及住戶資訊落差。</p>
-                </div>
-                <img class="hidden lg:block lg:ml-auto" src="../assets/img/homego/info_management.png" alt="">
-            </div>
-
-            <div class="my-[80px] flex">
-                <img class="hidden lg:block lg:mr-auto" src="../assets/img/homego/info_management.png" alt="">
-
-                <div class="mx-auto lg:mr-[0px] pt-[30px] text-center lg:text-right">
-                    <h1 class="mt-[17px] mb-[35px] title">管理資產與環境安全</h1>
-                    <p class="text-lg paragraph">建物內部資產的各項維護作業流程、與事務模組的關聯紀<br>錄、安全管理、設備物聯網整合應用紀錄。減少因管理機<br>制的差異，而造成的能源、資產與空間浪費</p>
-                </div>
-            </div>
-
-            <div class="my-[80px] flex">
-                <div class="mx-auto lg:ml-[0px] pt-[30px] text-center lg:text-left">
-                    <h1 class="mt-[17px] mb-[35px] title">標準化事務管理</h1>
-                    <p class="text-lg paragraph">提供用戶們服務通知、服務立案管道、物業與<br>任務管理模組，優化溝通管道，讓住戶即時感<br>受服務</p>
-                </div>
-                <img class="hidden lg:block lg:ml-auto" src="../assets/img/homego/info_management.png" alt="">
-            </div>
-
-            <div class="my-[80px] flex">
-                <img class="hidden lg:block lg:mr-auto" src="../assets/img/homego/info_management.png" alt="">
-
-                <div class="mx-auto lg:mr-[0px] pt-[30px] text-center lg:text-right">
-                    <h1 class="mt-[17px] mb-[35px] title">財務管理與訂購服務</h1>
-                    <p class="text-lg paragraph">專為建物設計的財務系統，提供制度化作業流<br>程、自動化分析財報，並有完整的點數系統、<br>訂購與金流平台。</p>
-                </div>
-            </div>
         </div>
+
+        <div class="max-w-7xl mx-auto xl:grid xl:grid-cols-2">
+            <div class="card">
+                <h3 class="subtitle">整合資訊與管理</h3>
+                    <p>基礎建物資料維護與營運機制規劃，同時管理關係人、社群組識、服務廠商、聯繫資訊。解決人員異動及住戶資訊落差。
+                    </p>
+                <img src="../assets/img/homego/info_management.png" alt="">
+            </div>
+                
+            <div class="card">
+                <h3 class="subtitle">管理資產與環境安全</h3>
+                    <p>建物內部資產的各項維護作業流程、與事務模組的關聯紀錄、安全管理、設備物聯網整合應用紀錄。減少因管理機制的差異，而造成的能源、資產與空間浪費
+                    </p>
+                <img src="../assets/img/homego/info_management.png" alt="">
+            </div>
+        
+            <div class="card">
+                <h3 class="subtitle">標準化事務管理</h3>
+                    <p>提供用戶們服務通知、服務立案管道、物業與任務管理模組，優化溝通管道，讓住戶即時感受服務</p>
+                <img src="../assets/img/homego/info_management.png" alt="">
+            </div>
+            
+            <div class="card">
+                <h3 class="subtitle">財務管理與訂購服務</h3>
+                <p>專為建物設計的財務系統，提供制度化作業流程、自動化分析財報，並有完整的點數系統、訂購與金流平台。</p>
+                <img src="../assets/img/spacesgo/stats_analysis.JPG" alt="">
+            </div>
     </section>
 
     <!-- Product Comparison -->
@@ -348,6 +348,14 @@
 <script>
     function toggle(){
         var x = document.getElementById("navLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+    function toggleApp(){
+        var x = document.getElementById("appLinks");
         if (x.style.display === "block") {
             x.style.display = "none";
         } else {
