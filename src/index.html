@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>勤禾科技服務 Viainno</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="../dist/index.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700&display=swap" rel="stylesheet">
+      
+</head>
+<body>
+    <!-- Header and Nav -->
+    <header class="w-full fixed bg-white">
+        <nav class="mx-auto flex max-w-7xl items-center justify-between p-5 lg:p-3 lg:px-8" aria-label="Global">
+            <div class="flex lg:flex-1">
+                <a href="./index.html" class="-m-1.5 p-1.5">
+                <span class="sr-only">Viainno</span>
+                <img class="h-8 w-auto" src="../assets/img/logo.svg" alt="">
+                </a>
+            </div>
+
+            <div class="lg:hidden">
+                <button type="button" class="space-y-2" onclick="toggle()">
+                    <div class="w-8 h-0.5 bg-gray-600"></div>
+                    <div class="w-8 h-0.5 bg-gray-600"></div>
+                    <div class="w-8 h-0.5 bg-gray-600"></div>
+                </button>
+            </div>
+            
+            <div class='hidden lg:flex'>
+                <a href="./index.html" class="block m-2.5 p-1.5 font-noto">首頁</a>
+                <a href="#" class="block m-2.5 p-1.5 font-noto">關於我們</a>
+                <a href="#" class="block m-2.5 p-1.5 font-noto">解決方案</a>
+                <a href="#" class="block m-2.5 p-1.5 font-noto">用科技整合生活</a>
+                <a href="#" class="block m-2.5 p-1.5 font-noto">聯繫我們</a>
+            </div>
+        </nav>
+
+        <div id="navLinks" class='bg-gray-200 hidden text-center'>
+            <a href="#" class="block m-2.5 p-1.5 font-noto">首頁</a>
+            <a href="#" class="block m-2.5 p-1.5 font-noto">關於我們</a>
+            <button onclick="toggleApp()" class="mx-auto block m-2.5 p-1.5 font-noto">解決方案</button>
+            
+            <div id="appLinks" class='bg-gray-200 hidden text-center font-light'>
+                <a href="#" class="block m-2.5 p-1.5 font-noto">Home Go</a>
+                <a href="#" class="block m-2.5 p-1.5 font-noto">Spaces Go</a>
+            </div>
+
+            <a href="#" class="block m-2.5 p-1.5 font-noto">用科技整合生活</a>
+            <a href="#" class="block mb-0 m-2.5 p-1.5 font-noto">聯繫我們</a>
+        </div>
+        
+    </header>
+
+    <!-- Hero Section -->
+
+    <section class="hero">
+        <div class="h-[600px] lg:mx-auto items-center">
+            <div class="mx-auto max-w-6xl pt-[250px] text-center">
+                <h3 class="text-black text-base lg:text-lg subtitle">勤禾科技服務</h3>
+                <h1 class="text-black my-[15px] title">作業標準化建立溝通與信任</h1>
+                <p class="text-lg text-black paragraph">綜合性的營運體系來設立管理標準化、<br>建構以數據為導向的營運方式,並增加彈性自由的環境</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Home Go Section -->
+
+    <section>
+        <div class="mx-auto max-w-6xl mb-[40px]">
+            <div class="text-center mb-[60px]">
+                <h1 class="title">Home Go</h1>
+            </div>
+            <img class="mx-auto mb-[40px]" src="../assets/img/placeholder.svg" alt="">
+            <div class="flex mx-auto justify-between w-[225px]">
+                <a class="app-cta" href="#">瞭解更多</a>
+                <a class="app-cta-btn" href="#">聯絡我們</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Spaces Go Section -->
+
+    <section class="bg-black">
+        <div class="mx-auto max-w-6xl pt-[60px]">
+            <div class="text-center mb-[60px]">
+                <h1 class="title text-white"> Spaces Go </h1>
+            </div>
+            <div class="mx-auto w-[905px] h-[545px] bg-white mb-[40px]"></div>
+            <div class="flex mx-auto justify-between w-[225px] pb-[30px]">
+                <a class="app-cta" href="#">瞭解更多</a>
+                <a class="app-cta-btn" href="#">聯絡我們</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Statement Section -->
+    <section class="bg-white">
+        <div class="max-w-6xl mx-auto text-center my-[60px]">
+            <h3 class="subtitle">WE FOCUS ON SPACE OPERATION AND USER EXPERIENCE</h3>
+            <h1 class="title mb-[30px]">我們專注在空間營運及使用體驗</h1>
+            <p class="mx-auto paragraph w-5/6">為了推動高度整合的智慧空間（Smart Spaces），勤禾長年投入空間及建築營運與研究，並透過自動化物件（Automated Things）和增強智慧（Augmented Intelligence）形式的人工智慧（AI），搭配物聯網（IoT）、邊緣運算（Edge Computing）和數位分身（Digital Twin）的使用，善用多種技術優勢，讓人與科技在這個開放且共同合作的連網生態內互動，致力提高人們與空間的互聯性、智能性與自主性。 <br> <br>
+                我們提供的平台解決方案（Spaces Go Platform、Home Go Platform），結合了多種元素，包括人、流程、服務和物件，創造新的應用和生活體驗，同時提供營運方方便設計及管理新的客戶服務形態。我們相信只有親身投入現場的驗證（Field Testing），才能更理解營運方的各項需求與痛點，包括資源閒置、管理不善、當前的解決方式昂貴等，在我們多年的實測，需要綜合性的營運體系來設立管理標準化、建構以數據為導向的營運方式，並增加彈性自由的環境來提高用戶的使用體驗，強化社群間的信任。
+            </p>
+        </div>
+    </section>
+    
+    <div class="max-w-7xl mx-auto xl:grid xl:grid-cols-3 text-center">
+        <div class="card">
+            <img src="../assets/img/homego/info_management.png" alt="">
+            <h3 class="subtitle">整合資訊與管理</h3>
+                <p>基礎建物資料維護與營運機制規劃，同時管理關係人、社群組識、服務廠商、聯繫資訊。解決人員異動及住戶資訊落差。
+                </p>
+        </div>
+        <div class="card">
+            <img src="../assets/img/homego/info_management.png" alt="">
+            <h3 class="subtitle">整合資訊與管理</h3>
+                <p>基礎建物資料維護與營運機制規劃，同時管理關係人、社群組識、服務廠商、聯繫資訊。解決人員異動及住戶資訊落差。
+                </p>
+        </div>
+        <div class="card">
+            <img src="../assets/img/homego/info_management.png" alt="">
+            <h3 class="subtitle">整合資訊與管理</h3>
+                <p>基礎建物資料維護與營運機制規劃，同時管理關係人、社群組識、服務廠商、聯繫資訊。解決人員異動及住戶資訊落差。
+                </p>
+        </div>
+    </div>
+
+    <!-- Tech partner Section -->
+    <section class="partner">
+        <div class="max-w-6xl text-center mx-auto my-[60px]">
+            <h1 class="title">技術夥伴</h1>
+        </div>
+    </section>
+
+    <!-- Well Building Section -->
+    <section class="partner bg-dark_green text-white">
+        <div class="max-w-6xl text-center mx-auto py-[60px]">
+            <h1 class="title">建築標章</h1>
+        </div>
+    </section>
+
+    <!-- Well Building Section -->
+    <section class="partner">
+        <div class="max-w-6xl text-center mx-auto my-[60px]">
+            <h1 class="title">合作案例</h1>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+
+    <section class="contact">
+        <div class="max-w-6xl mx-auto my-[30px]">
+            <div class="text-center py-[40px]">
+                <h3 class="subtitle">CONTACT OUR TEAM</h3>
+                <h1 class="title">歡迎您聯繫我們</h1>
+            </div>
+            <form id="project-contact-form" action="javascript:void(0)" method="post">
+                <div>
+                    <div id="success-project-contact-form" class="no-margin-lr"></div>
+                    <div class="flex">
+                        <input type="text" name="name" id="name" placeholder="姓名 Name*" class="big-input mr-[10px]">
+                        <input type="text" name="phone" id="phone" placeholder="電話號碼 Phone number*"  class="big-input ml-[10px]">
+                    </div>
+                    <div class="flex">
+                        <input type="text" name="email" id="email" placeholder="郵件信箱 Email address*" class="big-input mr-[10px]">
+                        <select name="budget" id="budget" class="big-input ml-[10px]">
+                            <option value="0">請選擇諮詢類別 Select a category</option>
+                            <option value="1">平台應用諮詢 Platform consultation</option>
+                            <option value="2">科技整合服務 Technology services</option>
+                            <option value="3">技術合作 Technical cooperation</option>
+                        </select>
+                    </div>
+                    <textarea name="comment" id="comment" placeholder="請留下您的訊息，我們將盡快與您聯繫 Please leave your message, we will contact you as soon as possible" rows="6" class="big-textarea"></textarea>
+                    <div class=" text-center">
+                        <button id="project-contact-us-button" type="submit" class="form-cta">確認送出</button>
+                    </div>
+                </div>
+              </form>
+        </div>
+
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="w-full bg-dark_gray ">
+        <div class="text-white font-noto py-[60px] w-full">
+            <div class="text-center lg:text-left lg:flex mx-auto max-w-6xl justify-between">
+                <div class="px-auto">
+                    <a href="#" class=""><img class="mx-auto" src="../assets/img/logo_white.svg" data-rjs="../assets/img/logo.svg" alt=""></a>
+                    <br><br>
+                    <p class="text-gray-500">
+                        勤禾科技服務(股)<br>
+                        Viainno Corporation<br><br>
+                        
+                        <span class="text-gray-500">
+                        <a href="tel:+886-2-26221666">+886 2 26221666</a><br>
+                        <a href="mailto:service@viainno.com">service@viainno.com</a>
+                        </span>
+
+                    </p>
+                </div>
+                <!-- start additional links -->
+                <div class="px-auto">
+                    <div class="footer-title">服務</div>
+                    <ul class="text-gray-500">
+                        <li><a class="text-medium" href="#">共享工作空間</a></li>
+                        <li><a class="text-medium" href="#">智慧建築</a></li>
+                        <li><a class="text-medium" href="#">社區經營平台</a></li>
+                        <li><a class="text-medium" href="#">智慧辦公室</a></li>
+                        <li><a class="text-medium" href="#">飯店旅館</a></li>
+                        <li><a class="text-medium" href="#">商務中心</a></li>
+                        <li><a class="text-medium" href="#">物聯網及科技顧問</a></li>
+                    </ul>
+                </div>
+                <!-- end additional links -->
+                <!-- start contact information -->
+                <div class="px-auto">
+                    <div class="footer-title">幫助</div> 
+                    <ul class="text-gray-500">
+                        <li><a class="" href="#">平台應用諮詢</a></li>
+                        <li><a class="" href="#">科技整合服務</a></li>
+                        <li><a class="" href="#">技術合作</a></li>
+                        <li><a class="" href="#">Spaces Go API</a></li>
+                            <li><a class="" href="#">Home Go API</a></li>
+                            <li><a class="" href="https://portal.spacesgo.com">Spaces Go Portal</a></li>
+                            <li><a class="" href="https://portal.homego.life">Home Portal</a></li>
+                    </ul>
+                </div>
+                <!-- end contact information -->
+                <!-- start instagram -->
+                <div class="px-auto">
+                    <div class="footer-title">公司</div>
+                        <ul class="text-gray-500">
+                        <li><a class="" href="#">關於我們</a></li>
+                        <li><a class="" href="#">經營理念</a></li>
+                        <li><a href="https://www.104.com.tw/company/1a2x6bkj5i" target="_blank" class="text-medium">加入我們</a></li>
+                        <!--<li><a class="text-medium" href="#">COVID19 空間方案</a></li>-->
+                    </ul>
+                </div>
+                <!-- end instagram -->
+            </div>
+        </div>
+        <div class="w-full bg-black text-white font-noto">
+            <div class="max-w-6xl mx-auto">
+                <div class="flex py-[30px] justify-center">
+                    <!-- start copyright -->
+                    <div class="mr-[100px]">© 2021 Viainno</div>
+                    <div class="">隱私權政策<a href="#" class="">&nbsp;&nbsp;Spaces Go</a>&nbsp;&nbsp; | &nbsp;&nbsp;<a href="#" class="">Home Go</a></div>
+                    <!-- end copyright -->
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
+    
+</body>
+<script>
+    function toggle(){
+        var x = document.getElementById("navLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+    function toggleApp(){
+        var x = document.getElementById("appLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
+</html>
